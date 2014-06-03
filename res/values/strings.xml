@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart Assistant</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="backgroundColor">#191830</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_situation">Add or Edit Situations</string>
+    <string name="title_activity_call_blocking"></string>
+    <string name="title_activity_contact_list"></string>
+    <string name="title_activity_bluetooth_toggling"></string>
+    <string name="title_activity_brightness"></string>
+    <string name="title_activity_wifi_toggling"></string>
+    <string name="title_activity_ringtone"></string>
+    <string name="addSettings">Add Settings</string>
+    <string name="addConditions">Add Conditions</string>
+    <string name="brightness">Brightness</string>
+    <string name="brightnessValue">Not Set</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="ringtoneValue">Not Set</string>
+    <string name="ringtoneHeader">Ringtone Picker</string>
+    <string name="ringtoneSelect">Select Ringtone</string>
+    <string name="ringtoneSet">Set Ringtone</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetoothValue">Not Set</string>
+    <string name="wifi">Wifi</string>
+    <string name="wifiText">Toggle WiFi</string>
+    <string name="eventText">Event Management</string>
+    <string name="wifiValue">Not Set</string>
+    <string name="blockCalls">Block Calls</string>
+    <string name="blockCallsValue">Not Set</string>
+    <string name="locationText">Location</string>
+    <string name="mapText">Map</string>
+    <string name="timeText">Date &amp; Time</string>
+    <string name="startDate">Set Event Date</string>
+    <string name="startTime">Set Start Time</string>
+    <string name="setEvent">Set the Event</string>
+    <string name="eventBack">Back</string>
+    <string name="endTime">Set End Time</string>
+    <string name="valueNotSet">Not Set</string>
+    <string name="done">Done</string>
+    <string name="pickContact">Pick Contact</string>
+    <string name="callBlockTextView">Blocking Calls</string>
+    <string name="blockAllCalls">Block All Calls</string>
+    <string name="blockselectedContacts">Block Selected Contacts</string>
+    <string name="situationRow">No Situations</string>
+    <string name="situationName">Name</string>
+    <string name="saveButton">Save</string>
+	<string name="cancelButton">Cancel</string>
+    <string name="deleteButton">Delete</string>
+
+    <!-- Bookmark Places -->
+    <string name="bookmark_list">Bookmarks</string>
+    <string name="add_loc">Add Bookmark</string>
+    <string name="no_bookmarks">No Bookmarks Yet</string>
+    <!-- context menu -->
+    <string name="delete_bookmark">Delete Bookmark</string>
+    <string name="edit_bookmark">Edit Bookmark</string>
+    <!-- bookmark edit view -->
+    <string name="bookmark_name">Name</string>
+    <string name="bookmark_addr">Address</string>
+    <string name="use_current_loc">Current Address</string>
+    <string name="specify_addr">Specify Location</string>
+    <string name="sel_addr_alert">Set situation for this address?</string>
+    <string name="sel_addr_confirm">Confirm</string>
+    <string name="sel_addr_cancel">Choose Another</string>
+    <string name="bookmark_directions">Get Directions</string>
+
+    <!-- BookmarkEdit -->
+    <string name="bookmark_progress_dialog_title">Saving Bookmark..</string>
+    <string name="bookmark_progress_dialog_body">Verifying Address..</string>
+    <string name="confirm">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="invalid_address">Cannot validate address. Please enter a valid address.</string>
+    <string name="save_error">Error saving data. Please try again.</string>
+    <string name="my_current_addr">Address of my current location</string>
+    <string name="map">Map</string>
+    <string name="loc_bookmark">Bookmarks</string>
+    
+
+    <!-- Location Edit -->
+    <string name="addr">Address </string>
+    <string name="body">Body</string>
+    <string name="enable">Enable </string>
+    <string name="disable">Disable </string>
+    <string name="range">Range </string>
+    <string name="range_units">miles</string>
+    <string name="event">Trigger On Entry and Exit</string>
+    <string name="on_entry">Entry</string>
+    <string name="on_exit">Exit</string>
+    <string name="rem_progress_dialog_title">Saving Situations..</string>
+    <string name="rem_progress_dialog_body">Verifying Data..</string>
+    <string name="range_prompt">Choose range</string>
+
+    <string-array name="planets_array">
+        <item>0.25</item>
+        <item>0.50</item>
+        <item>0.75</item>
+        <item>1.00</item>
+        <item>1.25</item>
+        <item>1.50</item>
+        <item>1.75</item>
+        <item>2.00</item>
+    </string-array>
+
+    <string name="use_map">Map</string>
+    <string name="from_bookmarks">Bookmarks</string>
+    <string name="addSituation">Add a Situation</string>
+
+    <!-- options menu -->
+    <string name="start_loc_svc">Start location Service</string>
+    <string name="stop_loc_svc">Stop location Service</string>
+    <string name="title_activity_edit_situation">EditSituationActivity</string>
+
+</resources>

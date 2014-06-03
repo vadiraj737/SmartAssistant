@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/bookmark_edit_layout"	
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:background="#000000">
+>
+
+<LinearLayout 
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+   <!-- Name -->	
+	<LinearLayout android:orientation="vertical"
+		android:id="@+id/name_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textColor="#F3F781"
+			android:text="@string/bookmark_name" />
+		<EditText android:id="@+id/bookmark_name" 
+		  android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center" 
+			android:layout_weight="1"/>
+	</LinearLayout>
+
+    <View
+            android:id="@+id/sep_bmark_edit0"
+            android:layout_height="2px"
+            android:layout_width="fill_parent"
+            android:background="#DDFFDD"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"/>
+
+	<!-- Address -->
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#F3F781" 
+			android:text="@string/bookmark_addr" />
+		<EditText android:id="@+id/bookmark_addr" 
+		  	android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_gravity="center"/>
+	</LinearLayout>
+
+	<!-- Address selection buttons -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="right"
+		>		
+		
+		<Button android:text="@string/mapText" 
+		android:id="@+id/map_me" 
+		android:background="@drawable/btn_blue"
+    	style="@style/ButtonText"
+    	android:layout_weight="1"
+    	android:layout_width="fill_parent"
+    	android:textStyle="bold"
+    	android:textSize="14sp" 
+		android:layout_height="40dip">
+		</Button>
+		
+		<Button android:id="@+id/current_loc" 
+	  		android:text="@string/use_current_loc"
+	  		android:background="@drawable/btn_blue"
+    		style="@style/ButtonText"
+    		android:layout_weight="1"
+    		android:textStyle="bold"
+    		android:textSize="14sp"
+			android:layout_width="fill_parent" 
+			android:layout_height="40dip" />	
+
+	
+</LinearLayout>
+	
+	    <View
+            android:id="@+id/sep_bmark_edit1"
+            android:layout_height="2px"
+            android:layout_width="fill_parent"
+            android:background="#DDFFDD"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"/>
+	
+
+   </LinearLayout>
+
+
+	<!-- Confirm/Cancel/Delete Buttons -->
+	
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		>
+
+		<Button android:id="@+id/save_bookmark" 
+	  		android:text="@string/confirm"
+	  		android:background="@drawable/btn_blue"
+    		style="@style/ButtonText"
+    		android:layout_weight="1"
+    		android:drawableLeft="@drawable/plus"
+    		android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+			
+			
+			
+	    <Button android:id="@+id/delete_bookmark" 
+	  		android:text="@string/delete"
+	  		android:background="@drawable/btn_blue"
+    		style="@style/ButtonText"
+    		android:layout_weight="1"
+    		android:drawableLeft="@drawable/minus"
+    		android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+	    
+	    <Button android:id="@+id/cancel_bookmark" 
+	  		android:text="@string/cancel"
+	  		android:background="@drawable/btn_blue"
+    		style="@style/ButtonText"
+    		android:layout_weight="1"
+    		android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />			
+	
+	</LinearLayout>
+
+</RelativeLayout>	

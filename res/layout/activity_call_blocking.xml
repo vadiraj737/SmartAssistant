@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+    
+    <TextView
+        android:id="@+id/callBlockTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#F3F781"
+        android:text="@string/callBlockTextView"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:background="@drawable/btn_blue"
+        style="@style/ButtonText"
+        android:id="@+id/callBlockButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/pickContact" />
+    
+
+
+    <Button
+        android:background="@drawable/btn_blue"
+        style="@style/ButtonText"
+        android:id="@+id/setCallBlocking"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:text="@string/blockselectedContacts" />
+
+</RelativeLayout>

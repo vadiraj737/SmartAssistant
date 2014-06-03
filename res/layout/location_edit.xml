@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/scrllvwNo1"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scrollbarStyle="insideInset"
+		android:background="#000000"
+		> 
+
+<LinearLayout
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+     <View
+            android:id="@+id/sep_rem_edit0"
+            android:layout_height="2px"
+            android:layout_width="fill_parent"
+            android:background="#DDFFDD"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"/>
+
+	<!-- Address Field -->
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textColor="#EEE464"
+			android:text="@string/addr" />
+		<EditText android:id="@+id/addr" 
+		  	android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"/>
+
+	
+	</LinearLayout>
+
+	<!-- Address selection buttons -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="right"
+		>
+		
+		<Button android:id="@+id/select_from_bookmarks" 
+	  		android:text="@string/from_bookmarks"
+	  		android:background="@drawable/btn_blue"
+        	style="@style/ButtonText"
+	  		android:textSize="9sp" 
+	  		android:textStyle="bold"
+			android:layout_weight="1"
+           android:layout_width="fill_parent"
+			android:layout_height="40dip" />
+			
+		<Button android:id="@+id/use_current" 
+	  		android:text="@string/use_current_loc"
+	  		android:background="@drawable/btn_blue"
+        	style="@style/ButtonText"
+	  		android:textSize="9.5sp" 
+	  		android:textStyle="bold"
+	  		android:layout_weight="1"
+           	android:layout_width="fill_parent"
+			android:layout_height="40dip" />
+		
+		<Button android:id="@+id/map" 
+	  		android:text="@string/use_map"
+	  		android:background="@drawable/btn_blue"
+        	style="@style/ButtonText"
+	  		android:textSize="9sp" 
+	  		android:textStyle="bold"
+			android:layout_weight="1"
+           	android:layout_width="fill_parent"
+			android:layout_height="40dip" />		
+
+	</LinearLayout>
+	
+	
+     <View
+            android:id="@+id/sep_rem_edit2"
+            android:layout_height="2px"
+            android:layout_width="fill_parent"
+            android:background="#DDFFDD"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"/>
+
+
+	<!--  range  -->
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textColor="#EEE464"
+		android:text="@string/range" />		
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+	  <EditText android:id="@+id/range" 
+		android:layout_width="100dip"
+		android:layout_height="wrap_content"
+		android:layout_weight="0"/>
+	  <TextView android:layout_width="wrap_content"
+	      android:textColor="#EEE464"
+		android:layout_height="wrap_content" 
+		android:text="@string/range_units" />				
+				
+	</LinearLayout>
+
+     <View
+            android:id="@+id/sep_rem_edit3"
+            android:layout_height="2px"
+            android:layout_width="fill_parent"
+            android:background="#DDFFDD"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"/>
+
+	<!-- trigger event settings -->
+		
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textColor="#EEE464"
+		android:text="@string/event" />	
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	  <CheckBox
+		android:id="@+id/on_entry"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/on_entry"
+		>
+	  </CheckBox>
+	  <CheckBox
+		android:id="@+id/on_exit"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/on_exit"
+		>
+	  </CheckBox>
+	</LinearLayout>
+
+     <View
+            android:id="@+id/sep_rem_edit4"
+            android:layout_height="2px"
+            android:layout_width="fill_parent"
+            android:background="#DDFFDD"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"/>
+     <View
+            android:id="@+id/sep_rem_edit5"
+            android:layout_height="2px"
+            android:layout_width="fill_parent"
+            android:background="#DDFFDD"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"/>
+            
+            
+	<!-- Body of Reminder -->
+	
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textColor="#EEE464"
+		android:text="@string/body" />
+	<EditText android:id="@+id/body" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:scrollbars="vertical" />
+	
+	<!-- Confirm/Cancel/Delete Buttons -->
+	
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<Button android:id="@+id/confirm_rem" 
+	  		android:text="@string/confirm"
+	  		android:background="@drawable/btn_blue"
+        	style="@style/ButtonText"
+			android:layout_weight="1"
+           android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+			
+		<Button android:id="@+id/cancel_rem" 
+	  		android:text="@string/cancel"
+	  		android:background="@drawable/btn_blue"
+        	style="@style/ButtonText"
+			android:layout_weight="1"
+           android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />	
+			
+	    <Button android:id="@+id/delete_rem" 
+	        android:background="@drawable/btn_blue"
+        	style="@style/ButtonText"
+	  		android:text="@string/delete"
+			android:layout_weight="1"
+           android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />			
+	
+	</LinearLayout>
+
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/situationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/situationName"
+        android:textColor="#EEE464"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    
+        <EditText
+        android:id="@+id/situationNameTextBox"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+        
+    <TextView
+        android:id="@+id/brightness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="73dp"
+        android:textColor="#EEE464"
+        android:text="@string/brightness"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    
+     <TextView
+        android:id="@+id/brightnessvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="80dp"
+        android:textColor="#EEE4D2"
+        android:text="@string/brightnessValue" />
+    
+    
+    <TextView
+        android:id="@+id/ringtone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ringtone"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="115dp"
+        android:textColor="#EEE464"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+    
+    <TextView
+        android:id="@+id/ringtonevalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="120dp"
+        android:textColor="#EEE4D2"
+        android:text="@string/ringtoneValue" />
+    
+    <TextView
+        android:id="@+id/bluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="160dp"
+        android:textColor="#EEE464"
+        android:text="@string/bluetooth"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+
+    <TextView
+        android:id="@+id/bluetoothvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="160dp"
+        android:textColor="#EEE4D2"
+        android:text="@string/bluetoothValue" />
+    
+    
+    
+    <TextView
+        android:id="@+id/wifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:textColor="#EEE464"
+        android:text="@string/wifi"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+        android:id="@+id/wifivalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="200dp"
+        android:textColor="#EEE4D2"
+        android:text="@string/wifiValue" />
+      
+    <TextView
+        android:id="@+id/blockcalls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="240dp"
+        android:textColor="#EEE464"
+        android:text="@string/blockCalls"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/blockcallsvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="240dp"
+        android:textColor="#EEE4D2"
+        android:text="@string/blockCallsValue" />
+
+
+    
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/saveButton" 
+        android:textSize="15sp"
+        android:drawableLeft="@drawable/plus"
+        android:background="@drawable/btn_blue"
+        style="@style/ButtonText"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/deleteButton" 
+        android:textSize="15sp"
+        android:drawableLeft="@drawable/minus"
+        android:background="@drawable/btn_blue"
+        style="@style/ButtonText"
+        android:layout_marginLeft="112.5dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/cancelButton" 
+        android:textSize="15sp"
+        android:background="@drawable/btn_blue"
+        style="@style/ButtonText"
+        android:layout_marginLeft="220dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    
+    <Button
+        android:id="@+id/addSettings"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="295dp"
+        android:textSize="15dp"
+        android:text="@string/addSettings"
+        android:background="@drawable/btn_blue"
+        style="@style/ButtonText" />
+    
+    <Button
+        android:id="@+id/addCondition"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="295dp"
+        android:textSize="15dp"
+        android:text="@string/addConditions"
+        android:background="@drawable/btn_blue"
+        style="@style/ButtonText"
+        android:layout_marginRight="5dp"  />
+    
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="340dp"
+        android:textColor="#EEE464"
+        android:text="@string/locationText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/locationValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="345dp"
+        android:textColor="#EEE4D2"
+        android:text="@string/valueNotSet" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="390dp"
+        android:textColor="#EEE464"
+        android:text="@string/timeText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/timeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="395dp"
+        android:textColor="#EEE4D2"
+        android:text="@string/valueNotSet" />
+    
+   </RelativeLayout>
